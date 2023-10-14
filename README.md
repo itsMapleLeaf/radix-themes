@@ -1,3 +1,7 @@
+> This is a fork of [Radix Themes](https://radix-ui/themes) with a fixed ESM build.
+
+---
+
 [![Radix Themes Logo](themes.png)](https://radix-ui.com/themes)
 
 # Radix Themes
