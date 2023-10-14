@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/themes",
+  "name": "@itsmapleleaf/radix-themes",
   "type": "module",
   "version": "2.0.0",
   "main": "./dist/cjs/index.js",
@@ -26,6 +26,7 @@
   "sideEffects": false,
   "license": "MIT",
   "files": [
+    "README.md",
     "dist/**",
     "styles.css"
   ],
@@ -44,7 +45,7 @@
     "lint:js": "eslint \"src/**/*.ts*\"",
     "lint:css": "stylelint \"src/**/*.css\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist && rm -rf styles.css",
-    "prepublishOnly": "yarn lint"
+    "prepublishOnly": "yarn lint && yarn build && bash -c \"cp ../../README.md .\""
   },
   "dependencies": {
     "@radix-ui/colors": "^3.0.0",
